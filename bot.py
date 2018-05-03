@@ -5,7 +5,7 @@ from slackclient import SlackClient
  
 class Bot(object):
     def __init__(self):
-        self.slack_client = SlackClient("xoxb-355943070582-mUxoCtns0lUhJ34XbD5VAjN5")
+     # self.slack_client = SlackClient("*********")
         self.bot_name = "twitterslackbot"
         self.bot_id = self.get_bot_id()
          
